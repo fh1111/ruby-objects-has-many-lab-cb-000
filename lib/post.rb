@@ -18,4 +18,4 @@ class Post
 
 end
 
-puts "#{post.author_name}""
+puts "#{post.author_name}"
