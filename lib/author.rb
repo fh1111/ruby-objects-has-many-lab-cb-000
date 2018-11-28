@@ -29,4 +29,8 @@ class Author
     @@count
   end
 
+  def name
+    @name
+  end
+
 end
