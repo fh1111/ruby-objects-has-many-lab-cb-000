@@ -13,8 +13,11 @@ class Song
   end
 
   def artist_name
-    puts "#{@artist.name}"
-    @artist.name
+
+    if @artist.name
+      return @artist.name
+    else
+      return nil
 
   end
 
