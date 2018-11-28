@@ -29,9 +29,7 @@ class Artist
     @@count
   end
 
-  def artist_name
-    @artist
-  end
+
 
 
 end
