@@ -13,8 +13,9 @@ class Song
   end
 
   def artist_name
-    @artist.name
     puts "#{@artist.name}"
+    @artist.name
+
   end
 
 end
