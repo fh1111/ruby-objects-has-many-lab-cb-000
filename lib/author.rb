@@ -29,8 +29,9 @@ class Author
     @@count
   end
 
-  def name
-    @name
-  end
-
 end
+
+
+sophie = Author.new('Sophie')
+post.author = sophie
+puts "#{post.author_name}"
