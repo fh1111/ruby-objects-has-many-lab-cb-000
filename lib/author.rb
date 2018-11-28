@@ -30,8 +30,3 @@ class Author
   end
 
 end
-
-
-sophie = Author.new('Sophie')
-post.author = sophie
-puts "#{post.author_name}"
