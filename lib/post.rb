@@ -17,3 +17,6 @@ class Post
   end
 
 end
+
+
+puts "#{post.author_name}"
